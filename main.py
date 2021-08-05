@@ -2,7 +2,7 @@ from fastapi import FastAPI, Request, WebSocket
 from fastapi.templating import Jinja2Templates
 from starlette.responses import StreamingResponse
 
-# fungsi convert b64 format to image
+# call our function
 from components import b64_to_images, read_video
 
 app = FastAPI()
